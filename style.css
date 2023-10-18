@@ -1,17 +1,27 @@
 h1 {
   background-color: rgba(137, 43, 226, 0);
-  position: absolute;
-  margin-bottom:500px;
-  margin-left: 600PX;
-  width: 300px;
+  width: 500px;
   text-align: center;
   color: #ffffff;
-  border: #ffffff 1px solid;
-  height: 40px;
-  padding-top: 5px;
+  border: #ffffff 2px solid;
+  padding: 10px;
   border-radius: 100px;
+  position: absolute;
+  font-size: 100px;
+  margin-left:200px;
+}
+
+.he {
+  text-align: center;
 }
 
 body {
-  background-image: url(Macbook\ Pro\ -\ Copy@1-1536x715\ \(1\).jpg);
+  background-color: rgb(23, 0, 44);
+
+}
+
+img {
+  width: 970px;
+  position: fixed;
+  margin-top: 250px;
 }
