@@ -1,0 +1,126 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+ 
+/*scroll*/
+body::-webkit-scrollbar {
+  background-color: #ffffff;
+  width: 16x;
+}
+body::-webkit-scrollbar-track {
+  background-color: #505050;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #cfcfcf;
+  border-radius: 16px;
+  border: 4px solid #000000;
+}
+
+
+
+
+
+
+
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.container {
+  display: flex;
+  margin-top: 15px;
+  margin-right: 40px;
+  margin-left: 40px;
+  background: #cfcfcf;
+  height: 50px;
+  border-radius: 16px;
+}
+ 
+.container .title {
+position: absolute;
+margin-left: 25px;
+}
+
+.container  h2{
+  position: absolute;
+  font-size: 30px;
+  color: #151515;
+  margin-left: 50px;
+  margin-top: 7px;
+  font-family: albert;
+}
+
+.container img {
+  position: absolute;
+  margin-right: 1200px;
+  width: 60px;
+  height: 35px;
+  margin-top: 7px;
+  border-radius: 7px;
+}
+
+.container nav {
+  position: absolute;
+  margin-left: 500px;
+}
+
+.container nav a {
+  font-family: Agency FB;
+  width: 10px;
+  padding: 7px 60px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.974);
+  position: relative;
+}
+
+.container nav a:hover {
+  transition: .1s;
+  animation-delay: .5s;
+  border-bottom: 3px #000000 solid;
+}
+
+.container nav  :nth-child(5) {
+  border: 0px;
+}
+
+.container nav {
+  margin-top: 14px;
+}
+
+
+.section-1{
+  text-align: center;
+}
+
+.section-1  .adr {
+width: 200px;
+margin: 0px auto;
+}
+
+.section-1  a {
+font-size: 20px;
+color: #ffffff;
+text-decoration: none;
+background: #0071e3;
+border-radius: 980px;
+padding: 7px 30px;
+font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.section-1  h3 {
+  color: #a9a9a9;
+  margin-top:80px;
+  position: relative;
+  font-size: 27px;
+  font-family: Calibri;
+}
+
+.section-1  a:hover {
+  background: #358ce3;
+  transition: .3s;
+  transform: scale(10px);
+}
+
