@@ -42,7 +42,7 @@ a {
   background: rgba(56, 56, 56, 0.495);
   --webkit-backdrop-filter: blur(50px);
   color: rgb(227, 227, 227);
-  border-radius: 10px;
+  border-radius: 30px;
   padding: 15px;
   border: 2px solid;
   display: flex;
@@ -63,4 +63,9 @@ span {
 .right {
   margin-left: 500px;
   margin-top: -1726px;
+}
+
+
+audio {
+margin-left: -400px;
 }
