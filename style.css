@@ -10,8 +10,9 @@ body {
 }
 
 .airpad {
+  position: absolute;
   height: 1000px;
-  margin-top: 900px;
+  margin-top: 600px;
   border-radius: 0px 70px 70px 0px;
 }
 
