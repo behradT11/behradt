@@ -6,4 +6,11 @@
 body {
   background-image: url(Untitled@1-1536x703.jpg);
   background-repeat: no-repeat;
+  background-color: rgb(100, 100, 100);
+}
+
+.airpad {
+  height: 1000px;
+  margin-top: 900px;
+  border-radius: 0px 70px 70px 0px;
 }
