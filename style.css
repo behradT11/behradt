@@ -14,3 +14,15 @@ body {
   margin-top: 900px;
   border-radius: 0px 70px 70px 0px;
 }
+
+.welcome {
+  font-size: 50px;
+  font-family: b titr;
+  position: relative;
+  text-align: center;
+  width: 600px;
+  color: white;
+  margin-left: 320px;
+  margin-top: 180px;
+}
+
