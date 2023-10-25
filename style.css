@@ -9,6 +9,10 @@ body {
   background-color: rgb(100, 100, 100);
 }
 
+.sectionone{
+
+}
+
 .airpad {
   position: absolute;
   height: 1000px;
@@ -25,5 +29,37 @@ body {
   color: white;
   margin-left: 320px;
   margin-top: 180px;
+  border-top:  3px  solid rgb(183, 183, 183);
+  border-left:  3px  solid rgb(183, 183, 183);
+  padding: 3px 10px;
+  border-radius: 50px 0 0 0 ;
 }
 
+.mob{
+  font-size: 45px;
+  width: 260px;
+  text-align: center;
+  margin-left:  2px;
+  font-family: b titr;
+  color: rgb(160, 160, 160);
+}
+
+
+
+.applewatch{
+  margin-top: 0px;
+  width: 100%;
+  margin-bottom: 500px;
+}
+
+.lole {
+  margin-bottom: 0px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.WHTCHaLOLE{
+  background-color: rgb(214, 214, 214);
+  margin-top: 2000px;
+  height: 500px;
+}
