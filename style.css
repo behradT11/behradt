@@ -9,14 +9,11 @@ body {
   background-color: rgb(100, 100, 100);
 }
 
-.sectionone{
-
-}
 
 .airpad {
   position: absolute;
   height: 1000px;
-  margin-top: 600px;
+  margin-top: 200px;
   border-radius: 0px 70px 70px 0px;
 }
 
@@ -29,10 +26,9 @@ body {
   color: white;
   margin-left: 320px;
   margin-top: 180px;
-  border-top:  3px  solid rgb(183, 183, 183);
-  border-left:  3px  solid rgb(183, 183, 183);
+  border:  3px  solid rgba(255, 115, 0, 0.719);
   padding: 3px 10px;
-  border-radius: 50px 0 0 0 ;
+  border-radius: 50px 5px 0 5px ;
 }
 
 .mob{
@@ -60,6 +56,72 @@ body {
 
 .WHTCHaLOLE{
   background-color: rgb(214, 214, 214);
-  margin-top: 2000px;
-  height: 500px;
+  margin-top: 1500px;
+  height: 1000px;
 }
+
+.sectionone img {
+  width: 1000px;
+  margin-top: -60px;
+  margin-left: 50px;
+}
+
+
+
+
+.sectionone .button {
+  cursor: pointer;
+  position: absolute;
+  padding: 10px 24px;
+  font-size: 27px;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 34px;
+  background-color: transparent;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  overflow: hidden;
+  margin-top: -40px;
+  margin-left: 870px;
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 97, 6);
+}
+
+.sectionone .button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: inherit;
+  scale: 0;
+  z-index: -1;
+  background-color: rgb(255, 147, 7);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.sectionone .button:hover::before {
+  scale: 3;
+}
+
+.sectionone .button:hover {
+  color: #212121;
+  border-color: #212121;
+  text-decoration: none;
+  scale: 1.1;
+  box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
+}
+
+.sectionone .button:active {
+  scale: 1;
+}
+
+@media screen and (max-width : 1025px) {
+  .sectionone .button{
+  font-size: 30px;
+  margin-top: -75px;
+
+  }
+}
+
