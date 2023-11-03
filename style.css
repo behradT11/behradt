@@ -1,52 +1,94 @@
-* {
+*{
   padding: 0px;
-  margin: 0px;
+  margin:0px;
 }
 
-body {
+body{
+  font-family: b titr;
+  background-color: #a4a4a4;
+}
 
-  background-color: rgb(30 26 21);
+nav {
+  background-color: #333;
+  padding: 5px 50px;
+  margin: 0px 40px;
+  border-radius: 0px 0px 100px 100px;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.navbar-menu li a:hover {
+  color: #ffcc00;
+}
+
+/* اضافه کردن استایل مخصوص ریسپانسیو در سایز کوچک */
+@media screen and (max-width: 768px) {
+.logo {
+  display: none;
+}
+
+nav {
+  margin: 0px 10px;
+}
+
+.navbar-menu {
+  gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
-.secone{
-  background-image: url(clo8hg97v0006356nx3rn9a9t.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 1080px;
 }
 
-.mobile {
-  margin-top: 50px;
-  color: #dcc6b2;
-  font-size: 50px;
-  text-align: center;
+@media screen and (max-width: 380px) {
+  .navbar-menu {
+    gap: 20px;
+  }
+
+  nav {
+    margin: 0px 0px;
+  }
 }
 
-a {
-  text-decoration: underline;
-  text-decoration-color: #e8a05e;
-  color: #dcc6b2;
+@media screen and (max-width: 320px){
+  .navbar-menu {
+    gap: 15px;
+  }
+
+  nav {
+    border-radius: 0px 0px 0px 0px;
+    padding: 5px 30px;
+  }
 }
 
-a span {
-color: #f8bf89;
-}
 
-.insta {
-  margin-top: 30px;
-  width: 60px;
-  padding-left: 10px;
-  padding-top: 20px;
-}
 
-.tele {
-  margin-top: 30px;
-  width: 60px;
-  padding-left: 10px;
-  padding-top: 20px;
-}
 
-iframe {
-  margin-top: 50px;
-}
+
+
+
+
+
